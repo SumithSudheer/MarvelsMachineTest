@@ -16,7 +16,6 @@ The following endpoints allow direct access and analysis of the tourism dataset:
 | :--- | :--- | :--- |
 | `GET` | `/hotels` | Lists all hotels in the database. |
 | `GET` | `/hotels/{hotel_id}` | Fetches details for a single hotel by its ID. |
-| `GET` | `/distances` | Lists all tourism spot distance records. |
 | `GET` | `/joined` | **The main AI analytics route.** Merges hotel + tourism spot data, processes it with Gemini AI, and generates reports. |
 
 ### ✅ AI-Powered Insights (`/joined` Endpoint)
