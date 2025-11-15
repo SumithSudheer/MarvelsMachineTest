@@ -1,0 +1,6 @@
+{
+    "db_path": "data/tourism.db",
+    "csv_path": "data/tourism_spots.csv",
+    "gemini_api_key": "AIzaSyB_yTYidk0EkSjqeCqn_zqtNy11CJ_8g8Q"
+  }
+  
