@@ -76,8 +76,7 @@ tourism-ai-project/
 ```bash
 git clone <repo-url>
 cd tourism-ai-project
-# Create necessary structure
-mkdir -p data outputs app/routers app/static
+
 ```
 
 ### 2. Create Virtual Environment
@@ -89,7 +88,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### 3. Install Dependencies
 Ensure you have the following installed (typically via a `requirements.txt`):
 ```bash
-pip install fastapi uvicorn pandas matplotlib google-genai sqlite-utils pydantic
+pip install -r requirements.txt
 ```
 
 ### 4. Configure API Key and Database
@@ -113,6 +112,14 @@ The API will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ### Interactive API Docs
 Explore and test all endpoints directly using the auto-generated documentation: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+## ▶️ Running the Dashboard
+Start the Streamlit Dashboard:
+```bash
+streamlit run app/dashboard.py
+```
+
+The Dashboard will be available at: [http://localhost:8501](http://localhost:8501)
 
 ## 📊 Outputs Generated
 The CSV files and PNG charts will be generated/overwritten every time the `/analytics/process` endpoint is called.
