@@ -71,7 +71,7 @@ source venv/bin/activate
 Install all required Python packages using pip:
 
 ```bash
-pip install fastapi uvicorn pandas matplotlib google-genai sqlite-utils
+pip install -r requirements.txt
 ```
 
 ### 3️⃣ Start the FastAPI Server
